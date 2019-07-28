@@ -6,6 +6,7 @@ def h_index(citations):
 
     length = len(citations)
     citations.sort()
+    print(change)
     for i in range(length):
         if(citations[i] >= length - i):
             return length - i
