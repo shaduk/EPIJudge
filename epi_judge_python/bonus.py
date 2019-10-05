@@ -3,6 +3,7 @@ from test_framework import generic_test
 
 def calculate_bonus(productivity):
     # TODO - you fill in here.
+    test
     return 0
 
 
