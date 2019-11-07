@@ -5,7 +5,7 @@ from test_framework.test_failure import TestFailure
 class LruCache:
     def __init__(self, capacity):
         # TODO - you fill in here.
-        return
+        return 0
 
     def lookup(self, isbn):
         # TODO - you fill in here.
@@ -13,7 +13,7 @@ class LruCache:
 
     def insert(self, isbn, price):
         # TODO - you fill in here.
-        return
+        return 0
 
     def erase(self, isbn):
         # TODO - you fill in here.
