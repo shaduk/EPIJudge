@@ -3,6 +3,10 @@ from test_framework import generic_test
 
 def search_list(L, key):
     # TODO - you fill in here.
+    while(L != None):
+        if key == L.data:
+            return L
+        L = L.next
     return None
 
 
